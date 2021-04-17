@@ -7,8 +7,8 @@
   - multiprocessing
   - re
   - os
-
-'''Python
+代码如下：
+```Python
 import requests
 from lxml import etree
 import random
@@ -67,4 +67,4 @@ pool = Pool(4)
 pool.map(get_data,urls)
 pool.close()
 pool.join()
-'''
+```
