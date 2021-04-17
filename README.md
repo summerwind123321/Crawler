@@ -8,7 +8,7 @@
   - re
   - os
 
-"""
+'''
 import requests
 from lxml import etree
 import random
@@ -67,4 +67,4 @@ pool = Pool(4)
 pool.map(get_data,urls)
 pool.close()
 pool.join()
-"""
+'''
