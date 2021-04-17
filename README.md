@@ -1,2 +1,9 @@
-# b-
-梨视频多进程爬取视频
+# 梨视频多进程爬取视频
+- 更新时间：2021.04.17
+- 需要用的库：
+  - requests
+  - lxml
+  - random
+  - multiprocessing
+  - re
+  - os
